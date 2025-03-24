@@ -1,5 +1,11 @@
 import { Component, Input, input, computed, Output, EventEmitter, output} from '@angular/core';
 
+interface User {
+  id: string;
+  avatar: string;
+  name: string;
+}
+
 @Component({
   selector: 'app-user',
   standalone: true,
